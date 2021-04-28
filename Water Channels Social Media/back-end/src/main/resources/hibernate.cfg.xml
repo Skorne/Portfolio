@@ -1,0 +1,36 @@
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!--JDBC stuff-->
+
+
+<!--        <property name="hibernate.connection.username">jgombar</property>-->
+<!--        <property name="hibernate.connection.password">password</property>-->
+<!--        <property name="hibernate.connection.url">-->
+<!--            jdbc:postgresql://johnsrevaturedatabase.cqgcfp0vom3j.us-east-2.rds.amazonaws.com/WaterTribe</property>-->
+<!--                  For Testing           -->
+        <property name="hibernate.connection.username">sa</property>
+        <property name="hibernate.connection.password">sa</property>
+        <property name="hibernate.connection.url">
+            jdbc:h2:./folder1.theData></property>
+
+        <property name="hibernate.connection.driver_class">
+            org.postgresql.Driver
+        </property>
+
+        <property name="hibernate.show_sql">false</property>
+        <property name="hibernate.format_sql">false</property>
+
+        <property name="hibernate.hbm2ddl.auto">update</property>
+
+
+        <!--map models go here vvv-->
+        <mapping class="models.User"/>
+        <mapping class="models.Post"/>
+
+
+    </session-factory>
+</hibernate-configuration>

@@ -15,9 +15,9 @@ This project is an expense reimbursement ticketing system that handles reimbursi
 
 ## Features
 
- - Employees can submit requests using a Client application on the front end
- - Financial managers can login and approve/deny requests
- - The site will persist the data related to those requests in a PostgreSQL database
+ - Employees can submit tickets using a Client application on the front end
+ - Financial managers can login and approve/deny tickets
+ - The site will persist the data related to those tickets in a PostgreSQL database
 
 To-Do:
 

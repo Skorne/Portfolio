@@ -1,0 +1,26 @@
+.form-background{
+    background-color: rgba(47, 79, 79, .75);
+    border: black;
+    border-width: 30px;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;    
+}
+
+.add-new-ticket-bg{
+    background-color: rgba(47, 79, 79, .75);
+    border: black;
+    border-width: 30px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.in-line-form{
+    max-width: 750px;
+    margin-top: 10px;
+}

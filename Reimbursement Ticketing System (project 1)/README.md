@@ -28,4 +28,4 @@ To-Do:
 To run the project, open the folder that contains the git repo in your IDE, then run the main to start the server. 
 The database used to store user and ticket information has been taken down, so site, unfortunately, can no longer be used. 
 
-login page:
+login page:![Opening landing page](https://github.com/Skorne/Portfolio/blob/master/Reimbursement%20Ticketing%20System%20(project%201)/ERS%20Login%20Page.PNG)

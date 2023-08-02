@@ -671,6 +671,7 @@ solveButton.place(width= 100, height= 40, x= 200, y=510)
 
 resetButton= Button(canvas, text="Reset", command= reset)
 resetButton.place(width= 100, height= 40, x= 350, y=510)
+reset()
 
 
 
